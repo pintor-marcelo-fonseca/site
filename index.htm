@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marcelo Fonseca - Pinturas</title>
+  <link rel="stylesheet" href="css/fancybox.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+  <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+  <header>
+    <img src="img/pintor-marcelo-fonseca.jpg" alt="Foto do Marcelo Fonseca" class="profile-photo">
+    <h1>Pintor Marcelo Fonseca</h1>
+    <p>Qualidade e Preço Justo</p>
+  </header>
+
+ <nav>
+  <div class="menu">
+    <a href="#vantagens">Por que escolher Marcelo Fonseca?</a>
+    <a href="#about">Sobre</a>
+    <a href="#contact">Contato</a>
+    <a href="#gallery">Galeria</a>
+  </div>
+</nav>
+
+<div class="conteudo">
+<section id="vantagens">
+  <h2>Por que escolher Marcelo Fonseca?</h2>
+  <div class="services">
+    <div class="service">
+      <h3>Profissionalismo</h3>
+      <p>Com mais de 15 anos de experiência em condomínios de alto padrão, Marcelo Fonseca entrega serviços de pintura com qualidade impecável e atenção aos mínimos detalhes.</p>
+    </div>
+    <div class="service">
+      <h3>Confiança</h3>
+      <p>Trabalhar com Marcelo significa tranquilidade. Um profissional comprometido, de confiança, sem surpresas desagradáveis ou riscos com desconhecidos.</p>
+    </div>
+    <div class="service">
+      <h3>Preço Justo</h3>
+      <p>Excelência não precisa ser cara. Marcelo oferece um preço justo para serviços de alto nível, tornando qualidade acessível para você.</p>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+<div id="dv-about">
+  <h2>Sobre Marcelo Fonseca</h2>
+  <p>
+    Marcelo Fonseca é pintor profissional em Ponta Grossa - PR, com mais de 15 anos de experiência 
+    atendendo os mais exigentes clientes em condomínios de alto padrão. 
+    Além da qualidade impecável nos serviços, Marcelo é um profissional de confiança, 
+    garantindo total segurança para sua casa. 
+    <strong>Não corra riscos com pessoas desconhecidas ou de procedência duvidosa.</strong> 
+    Contrate quem tem um histórico comprovado de seriedade e compromisso.
+  </p>
+  <p>
+    Oferecendo um <strong>preço justo</strong> e um atendimento personalizado, 
+    Marcelo é a escolha ideal para quem busca transformar ambientes com pintura de alta qualidade. 
+    Sua casa merece o melhor, sem abrir mão da confiança e tranquilidade.
+  </p>
+  </div>
+</section>
+
+  <section id="gallery">
+    <h2>Galeria</h2>
+    <div class="gallery">
+      <!-- Galeria de fotos -->
+      <script>
+        for (let i = 1; i <= 198; i++) {
+          document.write(`<a href="img/imagem${i}.jpg" data-fancybox="gallery"><img src="img/imagem${i}.jpg" alt="imagem ${i}" laad="lazy"></a>`);
+        }
+      </script>
+    </div>
+  </section>
+
+  
+ </div>
+  <footer>
+  <section id="contact">
+    <h2>Contato</h2>
+    <p>Entre em contato pelo telefone ou WhatsApp para solicitar um orçamento!</p>
+    <p><strong>Telefone:</strong> <a href="https://api.whatsapp.com/send?phone=5542999171305" target="_blank" />(42) 99917-1305</a></p>
+	<p>Ponta Grossa - PR</p>
+  </section>
+  <hr />
+    <p>&copy; 2025 Pintor Marcelo Fonseca - Todos os direitos reservados.</p>
+  </footer>
+ 
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+</body>
+</html>
